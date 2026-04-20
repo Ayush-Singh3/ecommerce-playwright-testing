@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ecommerce-playwright-testing
+  description: Not AI generated ecommerce-playwright-testing
+  annotations:
+    github.com/project-slug: Ayush-Singh3/ecommerce-playwright-testing
+spec:
+  type: service
+  owner: default
+  lifecycle: production
