@@ -4,7 +4,7 @@ metadata:
   name: resident-plus-backend
   description: Backend service for Resident Plus.
   annotations:
-    github.com/project-slug: Ayush-Singh3/backend-repo
+    github.com/project-slug: Ayush-Singh3/ecommerce-playwright-testing
     devx/repo-role: backend
     devx/repo-tags: python,backend,api
     jira/project-key: SCRUM
