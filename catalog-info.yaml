@@ -1,11 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ecommerce-playwright-testing
-  description: Not AI generated ecommerce-playwright-testing
+  name: resident-plus-backend
+  description: Backend service for Resident Plus.
   annotations:
-    github.com/project-slug: Ayush-Singh3/ecommerce-playwright-testing
+    github.com/project-slug: Ayush-Singh3/backend-repo
+    devx/repo-role: backend
+    devx/repo-tags: python,backend,api
+    jira/project-key: SCRUM
+    jira/label: backstage-component-resident-plus-backend
+    jira/ticket-label: devx-ticket-SCRUM-1
+    jira/tickets: SCRUM-1
 spec:
   type: service
-  owner: default
-  lifecycle: production
+  owner: ICS
+  lifecycle: experimental
